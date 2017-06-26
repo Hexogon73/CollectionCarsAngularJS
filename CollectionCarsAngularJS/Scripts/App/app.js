@@ -3,8 +3,9 @@ angular.module('CollectionCarsAppTR', ['ngResource', 'ngTable', 'ui.bootstrap', 
     // add translation table
     var translations = {
         Title: 'All Car',
-        BUTTON_TEXT_EN: 'English',
-        BUTTON_TEXT_RU: 'Russian',
+        BUTTON_TEXT_EN: 'Eng',
+        BUTTON_TEXT_RU: 'Рус',
+        Clear: 'Clear',
         Name: 'Name',
         Class: 'Class',
         Manufacturer: 'Manufacturer',
@@ -19,12 +20,13 @@ angular.module('CollectionCarsAppTR', ['ngResource', 'ngTable', 'ui.bootstrap', 
         Next: 'Next',
         Previous: 'Previous',
         AddCar: 'Add Car',
-        Car: 'car'
+        Car: 'Car'
     };
     var translations2 = {
         Title: 'Автомобили',
-        BUTTON_TEXT_EN: 'Английский',
-        BUTTON_TEXT_RU: 'Русский',
+        BUTTON_TEXT_EN: 'Eng',
+        BUTTON_TEXT_RU: 'Рус',
+        Clear: 'Очистить',
         Name: 'Название',
         Class: 'Класс',
         Manufacturer: 'Производитель',
@@ -39,7 +41,7 @@ angular.module('CollectionCarsAppTR', ['ngResource', 'ngTable', 'ui.bootstrap', 
         Next: 'Следующая',
         Previous: 'Предыдущая',
         AddCar: 'Добавить автомобиль',
-        Car: 'автомобиля'
+        Car: 'Автомобиль'
     };
     $translateProvider
       .translations('en', translations)

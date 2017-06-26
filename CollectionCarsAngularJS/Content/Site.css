@@ -16,3 +16,12 @@ textarea {
     max-width: 280px;
 }
 
+
+.input-group-mod{
+    width: 40%; 
+    min-width: 170px;
+}
+
+td.action-btn-grp {
+    text-align: center;
+}
